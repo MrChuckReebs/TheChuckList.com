@@ -1,0 +1,63 @@
+body {
+    background: #0f0f0f;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: cyan;
+    font-size: 50px;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+button {
+    background: #1a1a1a;
+    border: 2px solid cyan;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: cyan;
+    color: black;
+}
+
+.level-card {
+    background: #1a1a1a;
+    border: 2px solid cyan;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: 0.2s;
+}
+
+.level-card:hover {
+    transform: scale(1.02);
+}
+
+.leaderboard {
+    margin-top: 40px;
+    background: #1a1a1a;
+    border: 2px solid purple;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.player {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 10px;
+    background: #111;
+    border-radius: 8px;
+}
